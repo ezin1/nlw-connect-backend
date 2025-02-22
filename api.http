@@ -2,19 +2,22 @@ POST http://localhost:3333/subscriptions
 Content-Type: application/json
 
 {
-  "name": "John Doe2",
-  "email": "teste2@gmail.com",
-  "referrer": "d020d2dc-662a-4c14-b26e-c518e891ab44"
+  "name": "John Doe3",
+  "email": "teste4@gmail.com",
+  "referrer": "c4421c28-5975-40c4-9275-1130555ddf00"
 }
 
 ###
-GET http://localhost:3333/invites/d020d2dc-662a-4c14-b26e-c518e891ab44
+GET http://localhost:3333/invites/c4421c28-5975-40c4-9275-1130555ddf00
 
 ###
-GET http://localhost:3333/subscribers/d020d2dc-662a-4c14-b26e-c518e891ab44/ranking/clicks
+GET http://localhost:3333/subscribers/c4421c28-5975-40c4-9275-1130555ddf00/ranking/clicks
 
 ###
-GET http://localhost:3333/subscribers/d020d2dc-662a-4c14-b26e-c518e891ab44/ranking/count
+GET http://localhost:3333/subscribers/c4421c28-5975-40c4-9275-1130555ddf00/ranking/count
 
 ###
-GET http://localhost:3333/subscribers/d020d2dc-662a-4c14-b26e-c518e891ab44/ranking/position
+GET http://localhost:3333/subscribers/c4421c28-5975-40c4-9275-1130555ddf00/ranking/position
+
+###
+GET http://localhost:3333/ranking
